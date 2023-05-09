@@ -1,0 +1,9 @@
+whats is the direference between chomp and chop
+la diferencia entre esos dos es que chop elimina el ultimo caracter en todos los casos mientras que chomp no
+
+which are the different variables scopes and what are then usea for
+
+a String is an object from the String class. what are the methods reserve, capitalize and length for?
+reserve = lo que hace es crear un nuevo string y invertirlo
+length = retorna la cantidad de caracteres que almacena la variable
+capitalize = se encarga en poner en mayuscula el primer caracter de un string
