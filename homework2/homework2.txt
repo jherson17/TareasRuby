@@ -1,0 +1,24 @@
+-what cases do you think arrays are more suitable than hashes for?
+cuando trata del orden de los elementos ya que los hashes se guian por los keys que uno crea mietras que el array tiene un orden numerico segun se inserte
+
+si necesito acceder a los elementos por indices numericos es vas viable los arrays que los hash ya que los hash se hacede por keys
+
+si necesitas operacion datos del mismo tipo es decir string, double, int etc. es mas prefible el array ya que uno lo puede utilizar de forma mas eficiente que el hash que es mas para elemntos de diferente tipo
+
+-what cases do yo think hashes are more suitable than arrays for?
+si necesitas buscar informacion si tanta vuelta es mas eficiente los hashe gracias a sus claves o keys
+
+si necesitas poner diferentes tipos de datos los hashes son mejor por que tiene menos restricciones que el array
+
+los hashes son mas facil para tomar los datos ya que solo se necesita su clave para acceder a la informacion mientras que el array seria muy tedioso y poco eficiente y mas si es mucha informacion, revisar cada posicion para poder utilizar la informacion
+
+-can we have hashes as arrays elements? can we have arrays as hashes elemts? can an array or a hash be the key of any hash elemet
+
+hashes as arrays elemets = puedes tener hases como elemtos individuales
+array = [{key1 => value1}, {key2 => value2}]
+
+arrays as hashes elemets = es posible tener arreglos como valores dentro en un hash
+array = {key1 => [value1,value2]}
+
+y si se puede tener tanto las matrices como los haches como claves pero hay que tener en cuenta que los arrays deben de se inmutables
+
