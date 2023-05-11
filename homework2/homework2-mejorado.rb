@@ -40,7 +40,6 @@ case option;
     puts "\n1 for all information \n2 for specific information \n----------------------------------------------"
     optionSystem = gets.to_i;
     if optionSystem == 1
-      puts autonomousSystem
       autonomousSystem.each do |clue, value|#each do ayuda a recorrer el hash
         puts "#{clue}: #{value}"
       end
@@ -50,9 +49,9 @@ case option;
           puts "#{clue}"
         end
       puts "please write exactly\n"
-      key = gets.to_s###??????
-      puts "the date in the clue is = "
-      puts autonomousSystem[key]###??????
+      key = gets.chomp###??????
+      puts "the date in #{key} is = "
+      puts autonomousSystem[key]###?????? el problema que comparo una hash con un string como lo soluciono?
     else
         puts"There is no that option, try again"
     end
@@ -67,14 +66,13 @@ case option;
           puts "#{clue}: #{value}"
         end
     elsif optionDepart == 2
-        puts "elegiste opcion2"#completar
         departamentsAndCapitals.each do |clue, value| #each do ayuda a recorrer el hash
           puts "#{clue}"
         end
         puts "please write exactly\n"
-        key = gets.to_s###??????
-        puts "the date in the clue is = "
-        puts autonomousSystem[key]###??????
+        key = gets.chomp###??????
+        puts "the date in #{key} is = "
+        puts departamentsAndCapitals[key]###??????
     else
         puts"There is no that option, try again"
     end

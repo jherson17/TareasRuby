@@ -4,7 +4,7 @@ popularDomains = ["google.com","googleapis.com","gstatic.com","facebook.com","wh
 "linkedin.com","snapchat.com","outlook.com","cdninstagram.com","windows.com","azure.com","applovin.com","roblox.com","googletagservices.com","microsoftonline.com","mozilla.com","bytefcdn-oversea.com","avast.com","demdex.net","twimg.com","unity3d.com","2mdn.net","gmail.com","msedge.net","tiktokcdn-us.com","openx.net","mcfee.com","nr-data.net","scdn.co",
 "kwai.net","lencr.org","byteoversea.com","brave.com","jsdelivr.net","pinterest.com","canva.com","vungle,com","windows.net","fb.com","android.com","worldfcdn.com"]
 
-#puts popularDomains
+puts popularDomains
 
 departamentsAndCapitals =
 {
@@ -17,7 +17,7 @@ departamentsAndCapitals =
   "Guaviare" => "San José del Guaviare","Quindío" => "Armenia","Valle del Cauca" => "Cali","Vaupés" => "Mitú",
   "Huila" => "Neiva","San Andrés y Providencia" => "San Andrés","Magdalena" => "Santa Marta","La Guajira" => "Riohacha",
 }
-#puts departamentsAndCapitals
+puts departamentsAndCapitals
 
 autonomousSystem =
 {
@@ -27,5 +27,5 @@ autonomousSystem =
   "AS19429"=> "ETB - Colombia" ,
   "AS27831"=>"Colombia Movil"
 }
+puts autonomousSystem
 
-#puts departamentsAndCapitals
