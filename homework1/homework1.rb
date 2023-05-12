@@ -18,6 +18,7 @@ loop do
       puts "Enter the radius";
       radius = gets.to_f;
       result =  PI * (radius ** 2);
+      puts "The area of the  #{figure} is #{result} " ;
 
   when 2
       figure = "triangle";
@@ -26,12 +27,14 @@ loop do
       puts "Enter the high";
       high =  gets.to_f;
       result = 0.5 * (width * high);
+      puts "The area of the  #{figure} is #{result} " ;
 
   when 3
       figure = "square";
       puts "Enter the high";
       high = gets.to_f;
       result = high ** 2;
+      puts "The area of the  #{figure} is #{result} " ;
 
   when 4
       figure = "rectangle"
@@ -40,6 +43,7 @@ loop do
       puts "Enter the width";
       width = gets.to_f;
       result = high * width;
+      puts "The area of the  #{figure} is #{result} " ;
 
   when 5
       figure = "trapezium";
@@ -50,6 +54,7 @@ loop do
       puts "Enther the high";
       high = gets.to_f;
       result = 0.5 * (width1 + width2) * high;
+      puts "The area of the  #{figure} is #{result} " ;
 
   when 0
       puts "see you later!!"
@@ -58,11 +63,9 @@ loop do
 
   end
 
-  puts "The area of the  #{figure} is #{result} " ;
-  #puts "the area of the "+ figure +" is " +result == porque no da?
-
   if option == 0
    break
   end
+
 
  end

@@ -13,7 +13,7 @@ popularDomains = ["google.com","googleapis.com","gstatic.com","facebook.com","wh
 "google.adservices","rubiconproject.com","twitter.com","icloud.com","gvt1.com","app-measurement.com","skype.com","ampproject.org","amazon.com","criteo.com","pubmatic.com","scorecardresearch.com","cdn77.org","appflyer.com","cloudflare-dns.com","smartadserver.com","facebook.net","aaplimg.com","casalemedia.com","ntp.org",
 "linkedin.com","snapchat.com","outlook.com","cdninstagram.com","windows.com","azure.com","applovin.com","roblox.com","googletagservices.com","microsoftonline.com","mozilla.com","bytefcdn-oversea.com","avast.com","demdex.net","twimg.com","unity3d.com","2mdn.net","gmail.com","msedge.net","tiktokcdn-us.com","openx.net","mcfee.com","nr-data.net","scdn.co",
 "kwai.net","lencr.org","byteoversea.com","brave.com","jsdelivr.net","pinterest.com","canva.com","vungle,com","windows.net","fb.com","android.com","worldfcdn.com"]
-
+1
 
 departamentsAndCapitals =
 {
