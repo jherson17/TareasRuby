@@ -49,9 +49,9 @@ case option;
           puts "#{clue}"
         end
       puts "please write exactly\n"
-      key = gets.chomp###??????
+      key = gets.chomp###es necesario poner el chomp porque en los puts te generan un espacio
       puts "the date in #{key} is = "
-      puts autonomousSystem[key]###?????? el problema que comparo una hash con un string como lo soluciono?
+      puts autonomousSystem[key]
     else
         puts"There is no that option, try again"
     end
@@ -66,13 +66,13 @@ case option;
           puts "#{clue}: #{value}"
         end
     elsif optionDepart == 2
-        departamentsAndCapitals.each do |clue, value| #each do ayuda a recorrer el hash
+        departamentsAndCapitals.each do |clue, value|
           puts "#{clue}"
         end
         puts "please write exactly\n"
-        key = gets.chomp###??????
+        key = gets.chomp
         puts "the date in #{key} is = "
-        puts departamentsAndCapitals[key]###??????
+        puts departamentsAndCapitals[key]
     else
         puts"There is no that option, try again"
     end

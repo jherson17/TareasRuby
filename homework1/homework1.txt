@@ -1,6 +1,27 @@
 -whats is the direference between chomp and chop
 la diferencia entre esos dos es que chop elimina el ultimo caracter en todos los casos mientras que chomp no
 
+Which are the different variables’ scopes and what are them used for?
+Ruby tiene cuatro tipos de alcance variable, local , global , instancia y clase .
+
+Variables locales de rubí
+Las variables locales son locales para la construcción de código en la que se declaran. Por ejemplo, no se puede acceder a una variable local declarada en un método o dentro de un bucle fuera de ese bucle o método. Los nombres de las variables locales deben comenzar con un guión bajo o una letra minúscula. Por ejemplo:
+contador de bucles = 10
+_Contador de bucles = 20
+
+Variables globales de rubí
+Se puede acceder a las variables globales en Ruby desde cualquier parte del programa Ruby, independientemente de dónde se declaren. Los nombres de las variables globales tienen como prefijo un signo de dólar ($). Por ejemplo:
+
+$bienvenido = "Bienvenido a Ruby Essentials"
+
+Variables de clase Ruby
+Una variable de clase es una variable que se comparte entre todas las instancias de una clase. Esto significa que solo existe un valor de variable para todos los objetos instanciados desde esta clase. Esto significa que si una instancia de objeto cambia el valor de la variable, ese nuevo valor cambiará esencialmente para todas las demás instancias de objeto. por ejemplo:
+
+@@total = 0
+
+Variables de instancia de Ruby
+Las variables de instancia son similares a las variables de clase, excepto que sus valores son locales para instancias específicas de un objeto. Por ejemplo, si una clase contiene una variable de instancia llamada @total , si una instancia del objeto cambia el valor actual de @total , el cambio es local solo para el objeto que realizó el cambio.
+
 -a String is an object from the String class. what are the methods reserve, capitalize and length for?
 reserve = lo que hace es crear un nuevo string y invertirlo
 length = retorna la cantidad de caracteres que almacena la variable

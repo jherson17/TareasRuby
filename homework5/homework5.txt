@@ -1,0 +1,31 @@
+How do private, public and protected modifiers work in Ruby?
+public= por defecto, todos los métodos que definas serán públicos, a menos que uses la palabra clave private o protected para que no sean públicos. Los métodos públicos describen los comportamientos externos (fuera de la definición de clase) de un objeto, y se llaman con el objeto como el receptor explícito
+
+private=son métodos definidos bajo la palabra clave private.Los métodos privados solo se pueden usar dentro de la definición de clase; son para uso interno. La única forma de tener acceso externo a un método privado es llamarlo dentro de un método público. Además, los métodos privados no se pueden llamar con un receptor explícito
+
+protected=un método protegido es similar a un método privado, con la adición de que se puede llamar con o sin un receptor explícito, pero ese receptor siempre es uno mismo (está definiendo la clase) o un objeto que hereda de uno mismo
+
+2. How can I do to set the initialize method, so it works receiving optional
+    arguments?
+
+class MyClass2
+  def initialize(arg1 = "default1", arg2 = "default2")
+    @arg1 = arg1
+    @arg2 = arg2
+  end
+
+  def print_args
+    puts "arg1: #{@arg1}"
+    puts "arg2: #{@arg2}"
+  end
+end
+
+puts "With arguments"
+my_object = MyClass2.new
+my_object.print_args
+
+puts "With set arguments"
+my_object = MyClass2.new("custom1", "custom2")
+my_object.print_args
+
+

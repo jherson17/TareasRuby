@@ -6,7 +6,7 @@ si necesito acceder a los elementos por indices numericos es vas viable los arra
 si necesitas operacion datos del mismo tipo es decir string, double, int etc. es mas prefible el array ya que uno lo puede utilizar de forma mas eficiente que el hash que es mas para elemntos de diferente tipo
 
 -what cases do yo think hashes are more suitable than arrays for?
-si necesitas buscar informacion si tanta vuelta es mas eficiente los hashe gracias a sus claves o keys
+si necesitas buscar informacion sin tanta vuelta es mas eficiente los hashe gracias a sus claves o keys
 
 si necesitas poner diferentes tipos de datos los hashes son mejor por que tiene menos restricciones que el array
 

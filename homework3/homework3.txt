@@ -1,0 +1,62 @@
+What are break and next instructions used for, and within which
+statements?
+break= sirve para de tener la ejecucion de el programa se usa usual mente en Which
+ejemplo:
+    i = 1
+
+# Using While Loop
+while true
+
+    # Printing Values
+    puts i * 3
+    i += 1
+    if i * 3 >= 21
+
+        # Using Break Statement
+        break
+     end
+end
+
+next= sive para saltar la interaccion recurrente
+ejemplo:
+for x  in  0..6
+
+        # Used condition
+         if  x+1 < 4 then
+
+            # Using next statement
+            next
+         end
+
+         # Printing values
+         puts "Value of x is : #{x}"
+end
+What are these iterators for? Write a simple example of each of them:
+a. each iterador
+El iterador each se usa para iterar sobre los elementos de una colección, como una matriz, y realizar una acción específica para cada elemento.
+ejemplos:
+numbers = [1, 3, 5, 7]
+numbers.each { |n| puts n }
+
+ash = { bacon: 300, coconut: 200 }
+hash.each { |key,value| puts "#{key} price is #{value}" }
+
+animals = ["cat", "dog", "tiger"]
+animals.each_with_index { |animal, idx| puts "We have a #{animal} with index #{idx}" }
+
+b. time iterator
+El iterador de tiempos le permite ejecutar un bloque de código un número específico de veces.
+ejemplos:
+10.times { puts "hello" }
+
+10.times { |i| puts "hello #{i}" }
+
+C. collect interacotr
+Es un iterador que se usa para transformar elementos en un objeto enumerable (como una matriz, un hash o un rango)
+
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# using collect iterator
+# printing table of 5
+b = a.collect{ |y| (5 * y) }
+puts b
